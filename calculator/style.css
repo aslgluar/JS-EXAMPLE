@@ -1,0 +1,61 @@
+body {
+    background-color: antiquewhite;
+}
+.container {
+    position: absolute;
+    background-color: white;
+    top: 100px;
+    width: 300px;
+    height: 600px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: grid;
+    padding:20px;
+    grid-template-rows: 30% 45% 75%;
+}
+
+input {
+    text-align: right;
+    width: 100%;
+    background-color: white;
+    outline: 0;
+    border: 0;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.input:nth-child(1){
+    height: 30px;
+}
+.input:nth-child(2){
+    height: 30px;
+}
+.button {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.btnRow {
+    display: grid;
+    grid-template-columns : 1fr 1fr 1fr 1fr;
+}
+.btnRowlast {
+    display: grid;
+    grid-template-columns : 2fr 1fr 1fr;
+}
+.btn {
+color: white;
+text-decoration: cadetblue;
+
+    border-radius: 60px;
+    border: none;
+    margin: 4px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.top{
+    background-color:thistle;
+}
+.action {
+    background-color: rgb(9, 112, 172);
+}
